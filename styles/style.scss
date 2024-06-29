@@ -5,7 +5,7 @@
   font-family: "Poppins";
 }
 body{
-  background-color: rgb(226, 225, 225);
+  background-color: rgb(177, 177, 177);
  
 }
 @-webkit-keyframes ef-pulse-grow {
@@ -26,11 +26,11 @@ body{
   margin: 0 auto;
 }
 .container-top {
-  background: rgb(215, 86, 86);
+  background: rgb(255, 115, 0);
   background: linear-gradient(
     90deg,
-    rgba(215, 86, 86, 1) 0%,
-    rgba(255, 160, 160, 1) 100%
+    rgb(207, 103, 33) 0%,
+    rgb(255, 189, 113) 100%
   );
 }
 .headline {
@@ -42,7 +42,7 @@ body{
 }
 .image {
   img {
-    width: 600px;
+    width: 700px;
   }
 }
 .calltoaction {
@@ -50,7 +50,7 @@ body{
   h1 {
     text-align: start;
     line-height: 55px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(255, 123, 0);
     font-size: 48px;
     color: white;
     margin-bottom: 25px;
@@ -66,7 +66,7 @@ body{
     margin-top: 40px;
     border: 0;
     border-radius: 15px;
-    background-color: rgb(167, 0, 0);
+    background-color: rgb(255, 94, 0);
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -166,7 +166,8 @@ body{
   h1{
     margin-top: 80px;
     text-align: center;
-    color: rgb(167, 0, 0);
+    color: rgb(255, 94, 0);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
   }
 }
 .cards{
@@ -187,6 +188,7 @@ body{
   padding: 25px;
   width: 400px;
   height: 300px;
+  img{width: 100px;}
 }
 .card-1{
   text-align: center;
@@ -194,20 +196,26 @@ body{
   width: 400px;
   height: 300px;
   background-color: white;
+  img{width: 100px;}
 }
 .back{
   padding-top: 30px;
-  background: rgb(215, 86, 86);
+  background: rgb(255, 115, 0);
   background: linear-gradient(
     90deg,
-    rgba(215, 86, 86, 1) 0%,
-    rgba(255, 160, 160, 1) 100%
+    rgb(207, 103, 33) 0%,
+    rgb(255, 189, 113) 100%
   );
 }
 .promo{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.image-promo{
+  img{
+    width: 700px;
+  }
 }
 .calltoaction-3{
   padding: 15px;
@@ -229,7 +237,7 @@ body{
     margin-top: 40px;
     border: 0;
     border-radius: 15px;
-    background-color: rgb(167, 0, 0);
+    background-color: rgb(255, 94, 0);
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -387,7 +395,7 @@ body{
     padding-top: 15px;
   }
   .image{
-    position: relative;
+    
     top: 50px;
   }
   .calltoaction{
@@ -417,7 +425,7 @@ body{
     }
   }
   .image-promo{
-    position: relative;
+    
     top: 100px;
   }
 }
@@ -522,7 +530,7 @@ scale: 0.9;
   .image-promo{
     img{
         position: relative;
-        top: -35px;
+        top: 55px;
          
     }
   }
